@@ -7,10 +7,11 @@ let liElement1 = document.createElement("li");
 let liElement2 = document.createElement("li");
 
 const array1=[2,4];
-console.log(array1);
 
 const array2=[45,78,23];
-console.log(array2);
+
+
+// output array pre lavorazione
 
 liElement1.innerText =array1;
 olElement.append(liElement1);
@@ -42,6 +43,9 @@ const resultElement = document.querySelector("#result");
 
 let liResultElement1 = document.createElement("li");
 let liResultElement2 = document.createElement("li");
+
+
+// output array post lavorazione
 
 
 liResultElement1.innerText =array1;
