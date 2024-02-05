@@ -51,7 +51,3 @@ resultElement.append(liResultElement1);
 liResultElement2.innerText =array2;
 resultElement.append(liResultElement2);
 
-
-
-console.log(array1);
-console.log(array2);
