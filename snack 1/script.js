@@ -3,12 +3,24 @@
 
 const array=[];
 
+const ulElement = document.querySelector("#input");
+const resultElement = document.querySelector("#somma");
+
 
 let somma=0;
 
 do{
-    somma+= Number(prompt("inserisci un numero"));
+    let liElement = document.createElement("li");
+
+    let n = Number(prompt("inserisci un numero"));
+    somma+= n;
+
+    liElement.innerText= n;
+    ulElement.append(liElement);
+
     console.log(somma);
 }while(somma < 50);
 
+
+resultElement.innerText= "La somma è di "+somma;
 console.log("fuori dal while");
