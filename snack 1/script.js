@@ -13,6 +13,7 @@ do{
     let liElement = document.createElement("li");
 
     let n = Number(prompt("inserisci un numero"));
+    array.push(n);
     somma+= n;
 
     liElement.innerText= n;
